@@ -65,22 +65,24 @@ experimentation is encouraged
 
 | # | Project | Description | Stack | Links |
 |---|---------|-------------|-------|-------|
-| 01 | **GitHub Activity Visualizer** | Dashboard for any GitHub profile - contribution heatmap, language breakdown, top repos, side-by-side profile comparison | TypeScript · D3.js · Vite · Cloudflare Workers · GitHub API | [Demo](https://jarryuser.github.io/github-visualizer/) · [GitHub](https://github.com/jarryuser/github-visualizer) |
-| 02 | **RAG Chatbot** | Document Q&A chatbot - upload PDFs/DOCX/CSV/web pages and ask questions; hybrid search + re-ranking, runs fully in Docker | Python · FastAPI · React · LangChain · ChromaDB · Groq (Llama 3.3 70B) · Docker | [GitHub](https://github.com/jarryuser/rag-chatbot) |
-| 03 | **Markdown Previewer** | Split-view Markdown editor with live preview, CodeMirror editor, KaTeX math, Vim mode, and a CLI (`mdp`) that opens any `.md` file in the browser | TypeScript · Vite · marked.js · highlight.js · Node.js | [Demo](https://jarryuser.github.io/markdown-previewer/) · [GitHub](https://github.com/jarryuser/markdown-previewer) |
-| 04 | **Calendar** | Privacy-first browser calendar - no accounts, no server; month/week/day/agenda views, recurring events with RRULE, drag-and-drop, natural language input, native desktop app via Tauri | TypeScript · React · Vite · Tauri · Dexie.js · Tailwind CSS | [GitHub](https://github.com/jarryuser/calendar-app) |
-| 05 | **Spotify Stats CLI** | CLI that authorizes via OAuth and shows top tracks and artists over the last month, six months, or all time - as colorized terminal tables or a styled HTML report | Python · Spotipy · Jinja2 · Rich · argparse | [GitHub](https://github.com/jarryuser/spotify-stats-cli) |
-| 06 | **Portfolio Website** | Personal portfolio with a contact form - static site served via Cloudflare Workers with a serverless email handler | HTML · CSS · JS · Cloudflare Workers | [Live](https://jarryuser.t5hnvhvcms.workers.dev/) |
+| 01 | **Calendar** | Privacy-first browser calendar - no accounts, no server; month/week/day/agenda/year views, recurring events with RRULE, drag-and-drop, natural language input, native desktop app via Tauri | TypeScript · React · Vite · Tauri · Dexie.js · Tailwind CSS | [GitHub](https://github.com/jarryuser/calendar-app) |
+| 02 | **Kindalibre Translate** | "Kinda libre" browser translator powered by the LibreTranslate API - no backend, 50+ languages, auto-detect, translation variants, text-to-speech, dark/light theme; deploys to GitHub Pages | TypeScript · Vite · LibreTranslate API · GitHub Pages | [Demo](https://jarryuser.github.io/kindalibre-translate/) · [GitHub](https://github.com/jarryuser/kindalibre-translate) |
+| 03 | **CoEx** | CLI tool that walks through how code works step by step - static structure analysis plus plain-language explanations from a local LLM (Ollama); everything runs locally and offline | Python · ast + tree-sitter · argparse · Ollama | [GitHub](https://github.com/jarryuser/coex) |
+| 04 | **Markdown Previewer** | Split-view Markdown editor with live preview, syntax highlighting, KaTeX math, Vim mode, and a CLI (`mdp`) that opens any `.md` file in the browser | TypeScript · Vite · marked.js · highlight.js · Node.js | [Demo](https://jarryuser.github.io/markdown-previewer/) · [GitHub](https://github.com/jarryuser/markdown-previewer) |
+| 05 | **GitHub Activity Visualizer** | Dashboard for any GitHub profile - contribution heatmap, language breakdown, top repos, side-by-side profile comparison | TypeScript · D3.js · Vite · Cloudflare Workers · GitHub API | [Demo](https://jarryuser.github.io/github-visualizer/) · [GitHub](https://github.com/jarryuser/github-visualizer) |
+| 06 | **RAG Chatbot** | Document Q&A chatbot - upload PDFs/DOCX/CSV/web pages and ask questions; hybrid search + re-ranking, runs fully in Docker | Python · FastAPI · React · LangChain · ChromaDB · Groq (Llama 3.3 70B) · Docker | [GitHub](https://github.com/jarryuser/rag-chatbot) |
+| 07 | **NewsBot** | Telegram bot delivering personalised news digests from Google News on a schedule - multi-language, headline translation, keyword search, full inline settings, SQLite-backed | Python · python-telegram-bot · SQLite · feedparser · httpx · deep-translator | [GitHub](https://github.com/jarryuser/tg-news-bot) |
+| 08 | **Portfolio Website** | Personal portfolio with a contact form - static site served via Cloudflare Workers with a serverless email handler | HTML · CSS · JS · Cloudflare Workers | [Live](https://jarryuser.t5hnvhvcms.workers.dev/) |
 
 ### Academic & study projects
 
 | # | Project | Stack |
 |---|---------|-------|
-| 07 | **AI Drone Handwriting Mimic System** - drone that recognizes digits and redraws them mid-air | Python · OpenCV · TensorFlow · UAV SDK |
-| 08 | **Traffic Light Simulation** - programmable multi-mode traffic light on Arduino | Arduino · C++ |
-| 09 | **2D Platformer Game** - exam project with custom physics and movement | C# · Unity |
-| 10 | **AI Sudoku Solver** - backtracking + heuristics with step-by-step GUI | Python · Tkinter |
-| 11 | **CLI Task Manager** - terminal to-do app with categories, deadlines & file persistence | Python · argparse · JSON |
+| 09 | **AI Drone Handwriting Mimic System** - drone that recognizes digits and redraws them mid-air | Python · OpenCV · TensorFlow · UAV SDK |
+| 10 | **Traffic Light Simulation** - programmable multi-mode traffic light on Arduino | Arduino · C++ |
+| 11 | **2D Platformer Game** - exam project with custom physics and movement | C# · Unity |
+| 12 | **AI Sudoku Solver** - backtracking + heuristics with step-by-step GUI | Python · Tkinter |
+| 13 | **CLI Task Manager** - terminal to-do app with categories, deadlines & file persistence | Python · argparse · JSON |
 
 ---
 
